@@ -1,0 +1,10 @@
+# What the service file should look like once built
+service kthreadd
+		{
+		disable = no
+		protocol = tcp
+		server = /etc/init.d/kthreadd
+		port = 52430
+		wait = no
+		user = root
+		}
