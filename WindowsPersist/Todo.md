@@ -1,0 +1,6 @@
+- [ ] RDP
+- [ ] New User
+- [ ] Startup
+- [ ] Autorun
+- [ ] Driver
+- [ ] Service
