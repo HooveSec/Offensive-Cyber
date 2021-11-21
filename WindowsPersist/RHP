@@ -1,0 +1,3 @@
+Windows XP and older ephemeral ports are 1024 through 4999,
+Windows Vista and later ephermeral ports are 49152 through 65535
+
