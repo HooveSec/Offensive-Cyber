@@ -4,3 +4,5 @@
 - [ ] Autorun
 - [ ] Driver
 - [ ] Service
+- [ ] Batch Script
+- [ ] AppInit Key
