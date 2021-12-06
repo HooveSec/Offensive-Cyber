@@ -6,3 +6,8 @@ ls -al /var/log/secure
 grep -v "sshd\[pid\]" /var/log/secure > outfile
 cat outfile > /var/log/secure
 touch -t yyyyddhhmm.ss /var/log/secure
+
+
+by date
+  grep -v "Mmm DD HH:MM:ss" /var/log/secure > outfile
+
