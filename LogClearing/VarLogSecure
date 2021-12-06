@@ -1,0 +1,8 @@
+# Find whats changed 
+find /var/log -type f -mmin (time on device) 2>/dev/null
+unset histfile
+
+ls -al /var/log/secure
+grep -v "sshd\[pid\]" /var/log/secure > outfile
+cat outfile > /var/log/secure
+touch -t yyyyddhhmm.ss /var/log/secure
