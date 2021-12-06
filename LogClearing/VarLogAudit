@@ -1,0 +1,4 @@
+	grep 'exe="/usr/sbin/sshd"' var/log/audit/audit.log | grep ip
+	cat /var/log/audit/audit.log > outfile
+	grep -vE "ID1|ID2|ID3" /tmp/a1 > outfile
+	grep 'exe="/usr/sbin/sshd"' outfile | grep ip
