@@ -1,0 +1,3 @@
+grep -v "ssh\[2269\]" /var/log/auth.log > outfile 
+cat outfile > /var/log/auth.log
+touch -t YYYYMMDDMMHH /var/log/auth.log
