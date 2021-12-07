@@ -32,3 +32,5 @@ rm lsass.exe-123123.pf
 dir c:\*.*dmp /S /A
 dir c:\*.*wer /S /A
 rm user.dmp
+#ms search -f *.*dmp
+  search -f *.*wer
