@@ -1,0 +1,12 @@
+Bloodhound
+hashcat
+kerberoast
+mimikatz
+neo4j
+sysinternals
+nc
+bginfo
+powerup
+putty
+responder
+beroot
