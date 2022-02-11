@@ -1,0 +1,5 @@
+whoami
+id
+groups
+grep -lir password /home/* /root/*
+grep -lir secret /home/* /root/*
