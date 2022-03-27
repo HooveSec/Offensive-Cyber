@@ -26,3 +26,11 @@
 - Key Principal/Director - Fransesco Diodato
 - Key Principal/Director - Tanja Gorman
 - Key Principal/Director Aileen O'Sullivan
+
+## What are the IP addresses and subnet ranges?
+
+## What are the DNS and host names?
+
+## What are the listening ports and services?
+
+## What software and hardware are used? 
