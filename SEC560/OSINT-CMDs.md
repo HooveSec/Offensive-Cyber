@@ -27,3 +27,18 @@
 - https://hunter.io 
 ## Builtwith(identify underlying OS ie wordpress/sharepoint)
 - https://builtwith.com
+## Metadata Analysis
+### ExifTool(Windows/Unix)
+- https://exiftool.org
+### FOCA(Windows+SQL)
+- https://github.com/ElevenPaths/FOCA
+### DIA-NZ
+- https://github.com/DIA-NZ/Metadata-Extraction-Tool
+## Data dumps
+- https://haveibeenpwned.com
+- https://dehashed.com
+- https://scylla.so
+## Linkedin Scraper
+- https://github.com/vysecurity/LinkedInt
+## GatherContacts(Burp extension- have to manually click through)
+- https://github.com/clr20f8/GatherContacts

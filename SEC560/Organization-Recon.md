@@ -27,10 +27,19 @@
 - Key Principal/Director - Tanja Gorman
 - Key Principal/Director Aileen O'Sullivan
 
+# Organizational Recon - Sans
 ## What are the IP addresses and subnet ranges?
-
+- 45.60.31.34
+- 205.251.196.246
+- 205.251.198.210
+- 205.251.193.26
+- 205.251.194.237
+- 204.51.93.64 - 204.51.93.79
 ## What are the DNS and host names?
-
+- ns-1270.awsdns-30.org
+- ns-1746.awsdns-26.co.uk.
+- ns-282.awsdns-35.com
+- ns-749.awsdns-29.net
 ## What are the listening ports and services?
-
-## What software and hardware are used? 
+- mxa-002c1802.gslb.pphosted.com
+- mxb-002c1802.gslb.pphosted.com
