@@ -37,8 +37,10 @@
 ## Data dumps
 - https://haveibeenpwned.com
 - https://dehashed.com
-- https://scylla.so
 ## Linkedin Scraper
 - https://github.com/vysecurity/LinkedInt
 ## GatherContacts(Burp extension- have to manually click through)
 - https://github.com/clr20f8/GatherContacts
+## Spiderfoot(automated)
+- https://github.com/smicallef
+- sudo python3 ./opt/spiderfoot/sf.py -l 127.0.0.1:7777
