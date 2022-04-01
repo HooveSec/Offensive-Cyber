@@ -28,5 +28,5 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=steveirwincyber&show_icons=true&locale=en" alt="steveirwincyber" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=steveirwincyber&" alt="steveirwincyber" /></p>
-[eJPT.pdf](https://github.com/steveirwincyber/Offensive-Cyber/files/8399964/eJPT.pdf)
 
+![certs](https://user-images.githubusercontent.com/55242374/161316479-83d4e60f-358c-46c0-a5d9-3dff29a25a96.PNG)
