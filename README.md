@@ -28,6 +28,5 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=steveirwincyber&show_icons=true&locale=en" alt="steveirwincyber" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=steveirwincyber&" alt="steveirwincyber" /></p>
+[eJPT.pdf](https://github.com/steveirwincyber/Offensive-Cyber/files/8399964/eJPT.pdf)
 
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="61343047-d6e3-4cbe-b639-44f6a7099518" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-<p><img align="left" src="https://www.credly.com/earner/earned/badge/61343047-d6e3-4cbe-b639-44f6a7099518" /></p>
