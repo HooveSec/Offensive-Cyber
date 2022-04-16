@@ -11,3 +11,7 @@
 - C:\tools\nc.exe -nlvp 8080 < C:\files\capture.pcap
 - nc -nv 10.10.10.101 8080 > capture.pcap 
 - nc -nlvp 9090 < /etc/password 
+## Netcat Relay
+- mknod mypipe p 
+- nc -l -p 8000 <mypipe | nc 127.0.0.1 22 >mypipe 
+- ssh user@target -p 8000
