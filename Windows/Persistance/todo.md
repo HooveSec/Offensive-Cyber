@@ -1,5 +1,0 @@
-- [ ] Startup
-- [ ] Autorun
-- [ ] Driver
-- [ ] Batch Script
-- [ ] AppInit Key
