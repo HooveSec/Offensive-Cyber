@@ -5,12 +5,12 @@
 ` sudo ./reset.sh `
 ` sudo ../empire.sh`
 ### Search for stuff 
-- searchmodule privesc
+`searchmodule privesc`
 ### Listeners
-- listeners
-- uselistener http
-- uselistener meterpreter
-- info
+` listeners`
+` uselistener http`
+` uselistener meterpreter`
+` info`
 ### HTTP Listener 
 ` set DefaultDelay 1`
 ` set Port 8080`
