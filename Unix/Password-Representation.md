@@ -1,0 +1,5 @@
+- MD5: $1$
+- BSDi Extended DES: _
+- Blowfish-based: $2$ or $2a$ or $2y$
+- SHA-256: $5$
+- SHA-512: $6$
