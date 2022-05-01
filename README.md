@@ -13,10 +13,10 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/steveirwincyber](https://github.com/steveirwincyber)
 
-- I've worked on some others such as 
-        -- https://github.com/simeononsecurity/FireFox-Security-Researcher
-        -- https://github.com/simeononsecurity/FireFox-Privacy-Script
-        -- https://github.com/dionmulaj/EnumVolcano
+I've worked on some others such as 
+- https://github.com/simeononsecurity/FireFox-Security-Researcher
+- https://github.com/simeononsecurity/FireFox-Privacy-Script
+- https://github.com/dionmulaj/EnumVolcano
 
 - 📫 How to reach me **donttouchthemanta@gmail.com**
 
