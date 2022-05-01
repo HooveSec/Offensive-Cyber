@@ -18,7 +18,6 @@ I've worked on some others such as
 - https://github.com/simeononsecurity/FireFox-Privacy-Script
 - https://github.com/dionmulaj/EnumVolcano
 
-- 📫 How to reach me **donttouchthemanta@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
