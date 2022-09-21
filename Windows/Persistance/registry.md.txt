@@ -1,0 +1,2 @@
+Registry
+reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /V ChromeAutoStart -d "C:\Chrome AutoStart.exe"

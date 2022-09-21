@@ -1,0 +1,5 @@
+
+
+Schtasks
+schtasks /create /tn /calc /tr "C:\windows\calc.exe" /sc minute mo /10
+schtasks /query /tn calc
