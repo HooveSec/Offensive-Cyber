@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "53b05bf567e4239b",
+    "type": "split",
+    "children": [
+      {
+        "id": "633c787c2b06ad61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3163ba079415b3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPTS-HTB/28. Attacking Enterprise Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "395c775d5f7b645f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a7a5a8e505b3eab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c42c66feb9b9b45c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8b9cc1419e7a89e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b845756ff242e2a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "43f39c3d5f1f1408",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7494941ae4b9de07",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CPTS-HTB/28. Attacking Enterprise Networks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b3163ba079415b3f",
+  "lastOpenFiles": [
+    "CPTS-HTB/0. Syllabus.md",
+    "CPTS-HTB/28. Attacking Enterprise Networks.md",
+    "CPTS-HTB/Untitled 25.md",
+    "CPTS-HTB/27. Documentation & Reporting.md",
+    "CPTS-HTB/26. Windows Privilege Escalation.md",
+    "CPTS-HTB/25. Linux Privilege Escalation.md",
+    "CPTS-HTB/24. Attacking Common Applications.md",
+    "CPTS-HTB/23. Web Attacks.md",
+    "CPTS-HTB/22. Command Injections.md",
+    "CPTS-HTB/21. File Upload Attacks.md"
+  ]
+}
