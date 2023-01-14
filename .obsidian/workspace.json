@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "c16e87e1ca8e6e15",
+        "id": "8dca731cac6fd0f8",
         "type": "tabs",
         "children": [
           {
-            "id": "b533464f5246a067",
+            "id": "48bbe48062a668a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/ActiveDirectory/AttacktiveDirectory.md",
+                "file": "CPTS-HTB/4. Footprinting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f0af16b998dd8aaf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d76c80e907d8a544",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attack-Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/ActiveDirectory/AttacktiveDirectory.md",
+                "file": "CPTS-HTB/4. Footprinting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +122,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b533464f5246a067",
+  "active": "48bbe48062a668a9",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Windows/ActiveDirectory/AttacktiveDirectory.md",
-    "CPTS-HTB/13. Active Directory Enumeration & Attacks.md",
-    "CPTS-HTB/OPNOTES/Enumeration.md",
+    "CPTS-HTB/3. Network Enumeration with Nmap.md",
+    "Attack-Notes.md",
+    "CPTS-HTB/2.1 Nibbles.md",
+    "CPTS-HTB/2. Getting Started.md",
+    "CPTS-HTB/1.6 Lateral Movement.md",
     "CPTS-HTB/1.5 Post-Exploitation.md",
-    "CPTS-HTB/1.4 Exploitation.md",
-    "CPTS-HTB/1.3 Vulnerability Assessment.md",
     "CPTS-HTB/1.2 Information Gathering.md",
+    "CPTS-HTB/1.3 Vulnerability Assessment.md",
     "CPTS-HTB/1.1 Pre-Engagement.md",
-    "CPTS-HTB/2.1 Nibbles.md"
+    "Windows/Powershell/Powerview+Mimikatz.md"
   ]
 }
