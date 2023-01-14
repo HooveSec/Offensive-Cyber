@@ -4,198 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "633c787c2b06ad61",
+        "id": "c16e87e1ca8e6e15",
         "type": "tabs",
         "children": [
           {
-            "id": "b3163ba079415b3f",
+            "id": "b533464f5246a067",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS-HTB/1. Penetration Testing Process.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f71eaace2b6d015",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/1.1 Pre-Engagement.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b5ac1676bd0c4e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/1.2 Information Gathering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7fbf85b546f316e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/1.3 Vulnerability Assessment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d4e7e3a5a266e60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/1.4 Exploitation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c863da25911557af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/1.5 Post-Exploitation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2edd950a0747bb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/1.6 Lateral Movement.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "002a4d96bc722b95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/1.7 Proof-of-Concept.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c137259c0ea415a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/1.8 Post-Engagement.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28866a61651bbdc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/2. Getting Started.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2307ce13941c3819",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/OPNOTES/Enumeration.md",
+                "file": "Windows/ActiveDirectory/AttacktiveDirectory.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 10
-      },
-      {
-        "id": "c01ea39e057f422e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a33242e162b8d2f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/2. Getting Started.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f271e61fdbc63f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/2. Getting Started.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c518b01bc788f671",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPTS-HTB/2. Getting Started.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8dc94848bb28ca38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.1 Nibbles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.1 Nibbles.md",
+                "file": "Windows/ActiveDirectory/AttacktiveDirectory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,17 +104,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8dc94848bb28ca38",
+  "active": "b533464f5246a067",
   "lastOpenFiles": [
-    "CPTS-HTB/2. Getting Started.md",
-    "CPTS-HTB/1.9 - Activity.md",
-    "CPTS-HTB/0. Syllabus.md",
-    "Networks/Pivot-Scan.md",
-    "msfvenom.md",
-    "Windows/DropperTechniques.md",
-    "Windows/ActiveDirectory/ntds-dit.md",
-    "Windows/ActiveDirectory/Crack-Sniff.md",
+    "Untitled.md",
     "Windows/ActiveDirectory/AttacktiveDirectory.md",
-    "Windows/ActiveDirectory/Metasploit.md"
+    "CPTS-HTB/13. Active Directory Enumeration & Attacks.md",
+    "CPTS-HTB/OPNOTES/Enumeration.md",
+    "CPTS-HTB/1.5 Post-Exploitation.md",
+    "CPTS-HTB/1.4 Exploitation.md",
+    "CPTS-HTB/1.3 Vulnerability Assessment.md",
+    "CPTS-HTB/1.2 Information Gathering.md",
+    "CPTS-HTB/1.1 Pre-Engagement.md",
+    "CPTS-HTB/2.1 Nibbles.md"
   ]
 }
