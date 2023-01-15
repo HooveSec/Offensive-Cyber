@@ -26,18 +26,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d76c80e907d8a544",
+            "id": "7accbd4b1d4278c1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "2c19d1a777a9fdbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attack-Notes.md",
+                "file": "CPTS-HTB/9. Using the Metasploit Framework.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPTS-HTB/4. Footprinting.md",
+                "file": "CPTS-HTB/9. Using the Metasploit Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,17 +131,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "48bbe48062a668a9",
+  "active": "2c19d1a777a9fdbb",
   "lastOpenFiles": [
+    "CPTS-HTB/OPNOTES/Attack-Notes.md",
+    "CPTS-HTB/4. Footprinting.md",
+    "CPTS-HTB/OPNOTES/Enumeration.md",
     "CPTS-HTB/3. Network Enumeration with Nmap.md",
-    "Attack-Notes.md",
     "CPTS-HTB/2.1 Nibbles.md",
     "CPTS-HTB/2. Getting Started.md",
     "CPTS-HTB/1.6 Lateral Movement.md",
     "CPTS-HTB/1.5 Post-Exploitation.md",
     "CPTS-HTB/1.2 Information Gathering.md",
-    "CPTS-HTB/1.3 Vulnerability Assessment.md",
-    "CPTS-HTB/1.1 Pre-Engagement.md",
-    "Windows/Powershell/Powerview+Mimikatz.md"
+    "CPTS-HTB/1.3 Vulnerability Assessment.md"
   ]
 }
