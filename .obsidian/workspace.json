@@ -115,15 +115,15 @@
   },
   "active": "2c19d1a777a9fdbb",
   "lastOpenFiles": [
+    "msfvenom.md",
+    "CPTS-HTB/9. Using the Metasploit Framework.md",
     "CPTS-HTB/Cheat-Sheets/metasploit.md.md",
     "CPTS-HTB/2.1 Nibbles.md",
     "CPTS-HTB/3. Network Enumeration with Nmap.md",
     "CPTS-HTB/4. Footprinting.md",
     "CPTS-HTB/OPNOTES/Attack-Notes.md",
-    "CPTS-HTB/9. Using the Metasploit Framework.md",
     "CPTS-HTB/OPNOTES/Enumeration.md",
     "CPTS-HTB/2. Getting Started.md",
-    "CPTS-HTB/1.6 Lateral Movement.md",
-    "CPTS-HTB/1.5 Post-Exploitation.md"
+    "CPTS-HTB/1.6 Lateral Movement.md"
   ]
 }
