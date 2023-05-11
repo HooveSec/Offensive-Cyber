@@ -13,13 +13,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS-HTB/8. Shells & Payloads.md",
+                "file": "SEC560/Google-Fu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "428deec656f99e00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Connection Via Windows.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d13777faeeba8ef7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Payloads/Wscript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b26ba68bd1a4417a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Payloads/HTML - HTA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ed86d5f8a4f4a71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Payloads/VBA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41e9932261451b2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Payloads/Wscript.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -77,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPTS-HTB/8. Shells & Payloads.md",
+                "file": "Windows/Payloads/Wscript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +165,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2c19d1a777a9fdbb",
+  "active": "41e9932261451b2f",
   "lastOpenFiles": [
+    "Windows/Payloads/VBA.md",
+    "Windows/Payloads/Powershell.md",
+    "Windows/Payloads/HTML - HTA.md",
+    "msfvenom.md",
+    "Windows/Payloads/Wscript.md",
+    "Windows/Connection Via Windows.md",
+    "SEC560/Google-Fu.md",
     "CPTS-HTB/Cheat-Sheets/shellsnpayloads.md",
-    "CPTS-HTB/8. Shells & Payloads.md",
-    "CPTS-HTB/OPNOTES/Attack-Notes.md",
-    "CPTS-HTB/7. File Transfers.md",
-    "CPTS-HTB/Cheat-Sheets/nmap.md.md",
-    "CPTS-HTB/Cheat-Sheets/metasploit.md.md",
-    "CPTS-HTB/Cheat-Sheets/fileuploadattacks.md.md",
-    "CPTS-HTB/2.1 Nibbles.md",
-    "CPTS-HTB/fileuploadattacks.md.md",
-    "CPTS-HTB/9. Using the Metasploit Framework.md"
+    "CPTS-HTB/Cheat-Sheets/Footprinting.md.md",
+    "CPTS-HTB/Cheat-Sheets/fileuploadattacks.md.md"
   ]
 }
