@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7accbd4b1d4278c1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "2c19d1a777a9fdbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS-HTB/7. File Transfers.md",
+                "file": "CPTS-HTB/8. Shells & Payloads.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPTS-HTB/7. File Transfers.md",
+                "file": "CPTS-HTB/8. Shells & Payloads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,15 +106,15 @@
   },
   "active": "2c19d1a777a9fdbb",
   "lastOpenFiles": [
+    "CPTS-HTB/Cheat-Sheets/shellsnpayloads.md",
+    "CPTS-HTB/8. Shells & Payloads.md",
+    "CPTS-HTB/OPNOTES/Attack-Notes.md",
+    "CPTS-HTB/7. File Transfers.md",
+    "CPTS-HTB/Cheat-Sheets/nmap.md.md",
+    "CPTS-HTB/Cheat-Sheets/metasploit.md.md",
     "CPTS-HTB/Cheat-Sheets/fileuploadattacks.md.md",
     "CPTS-HTB/2.1 Nibbles.md",
-    "CPTS-HTB/7. File Transfers.md",
     "CPTS-HTB/fileuploadattacks.md.md",
-    "CPTS-HTB/OPNOTES/Attack-Notes.md",
-    "CPTS-HTB/9. Using the Metasploit Framework.md",
-    "msfvenom.md",
-    "CPTS-HTB/Cheat-Sheets/metasploit.md.md",
-    "CPTS-HTB/3. Network Enumeration with Nmap.md",
-    "CPTS-HTB/4. Footprinting.md"
+    "CPTS-HTB/9. Using the Metasploit Framework.md"
   ]
 }

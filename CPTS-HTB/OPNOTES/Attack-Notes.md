@@ -102,7 +102,9 @@
 		c:\inetpub\wwwroot\
 		XAMPP
 		C:\xampp\htdocs\
-
+## Access
+	ssh -o
+	xfreerdp +clipboard /v:10.129.x.x /u:htb-student /p:HTB_@cademy_stdnt!
 # Priv Esc
 ### PHP
 	sudo php -r 'echo exec("id");'
