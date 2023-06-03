@@ -13,6 +13,8 @@
 	netsh advfirewall firewall add rule name=SomeNameHere dir=in localport=3389 action=allow protocol=TCP
 	netsh interface portproxy add v4tov4 listenport=1337 connectport=8000 connectaddress=192.168.1.2
 
+	
+
 ## SSH 
 	ssh -S /tmp/socket -O forward -L 5555:1.2.3.4:22 z
 	ssh -L 8888:server:80 user@pivot 
