@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Information Gathering/Active.md",
+                "file": "OSCP/Web Applications.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Information Gathering/Active.md",
+                "file": "OSCP/Web Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,10 +114,14 @@
   },
   "active": "3a3e410305f0e435",
   "lastOpenFiles": [
+    "OSCP/Information Gathering.md",
+    "OSCP/Resources.md",
+    "OSCP/Web Applications.md",
+    "OSCP/AD Killchain.md",
+    "OSCP/Information Gathering/Passive.md",
     "CPTS-HTB/OPNOTES/Attack-Notes.md",
     "CPTS-HTB/4. Footprinting.md",
     "CPTS-HTB/5. Information Gathering - Web Edition.md",
-    "OSCP/Information Gathering/Active.md",
     "CPTS-HTB/2.1 Nibbles.md",
     "CPTS-HTB/3. Network Enumeration with Nmap.md",
     "CPTS-HTB/1.1 Pre-Engagement.md",
@@ -136,10 +140,6 @@
     "CPTS-HTB/Cheat-Sheets/nmap.md.md",
     "CPTS-HTB/0. Syllabus.md",
     "CPTS-HTB/0.1 - Todo.md",
-    "CPTS-HTB/1. Penetration Testing Process.md",
-    "OSCP/Information Gathering/Passive.md",
-    "OSCP/Resources.md",
-    "Windows/Payloads/Wscript.md",
     "OSCP/Information Gathering",
     "OSCP/PG Play",
     "Unix/PrivESC",

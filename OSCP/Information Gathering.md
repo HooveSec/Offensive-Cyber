@@ -89,6 +89,22 @@ snmp walk
 ```
 snmpwalk -c public -v1 -t 10 192.168.241.151
 snmpwalk -c public -v1 192.168.241.151 -Oa
+#account names
+snmpwalk -c public -v1 -t 10 192.168.241.151 1.3.6.1.4.1.77.1.2.25
+# processes
+snmpwalk -c public -v1 -t 10 192.168.241.151 1.3.6.1.2.1.25.4.2.1.2
+# tcp listening ports
+snmpwalk -c public -v1 -t 10 192.168.241.151 1.3.6.1.2.1.6.13.1.3
+```
+onesixtyone 
+```
+onesixtyone -c community -i ips 
+```
+Make your strings
+```
+echo public > community
+echo private >> community
+echo manager >> community
 ```
 # Scan with windows
 Powershell
@@ -98,4 +114,19 @@ test-netconnection -port 25 192.168.241.50
 Telnet
 ```
 dism /online /enable-feature /featurename:telnetclient
+```
+
+# NMAP NSE Vuln Scans
+location
+```
+/usr/share/nmap/scripts/script.db
+```
+script
+```
+sudo nmap -sV -p 443 --script "vuln" 192.168.241.151
+```
+Download new script
+```
+vim /usr/share/nmap/scripts/http-vuln-cve2021-41773.nse
+sudo nmap --script-updatedb
 ```
