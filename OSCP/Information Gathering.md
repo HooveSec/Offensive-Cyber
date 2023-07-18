@@ -84,6 +84,11 @@ manual
 ```
 VRFY ROOT
 ```
+swaks
+```
+swaks -s 192.168.220.199 -p 25 -t test@supermagicorg.com -f off.sec@supermagicorg.com --header "Subject:re" --protocol ESMTP -a -au test@supermagicorg.com -ap test --body "body" --attach automatic_configuration.lnk --attach config.Library-ms --suppress-data
+```
+
 # SNMP
 nmap
 ```
@@ -110,6 +115,17 @@ echo public > community
 echo private >> community
 echo manager >> community
 ```
+
+# RPC 
+rpcmap
+impacket
+
+
+
+
+
+
+
 # Scan with windows
 Powershell
 ```
@@ -119,6 +135,20 @@ Telnet
 ```
 dism /online /enable-feature /featurename:telnetclient
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # NMAP NSE Vuln Scans
 location
