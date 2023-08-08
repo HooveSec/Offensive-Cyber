@@ -43,5 +43,5 @@ ssh private
 chmod 600 id_rsa
 ssh -i id_rsa yeet@192.168.X.X -p 2222
 
-alfred
+
 ```

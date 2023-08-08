@@ -120,6 +120,13 @@ echo manager >> community
 rpcmap
 impacket
 
+rpcclient
+	enumdomusers
+	enumlsgroups domain|builtin
+	lsaenumsid
+	lookupnames <name/sid>
+	lookupsids <sid>
+	srvinfo
 
 
 
