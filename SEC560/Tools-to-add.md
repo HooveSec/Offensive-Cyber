@@ -1,23 +1,24 @@
 # Tools for workstation
 
 ## Windows
-- hashcat
-- neo4j
-- sysinternals
-- nc
-- powerup
-- powerup
-- putty
+
+- Hashcat
+- Neo4j
+- Sysinternals
+- Netcat
+- PowerUp
+- PuTTY
 - strings
-### AD
-- Bloodhound
-- kerberoast
-- mimikatz
-- responder
-## Unix 
-- hashcat
-- beroot
-- exiftool
 
+### Active Directory
 
+- BloodHound
+- Kerberoasting tools
+- Mimikatz
+- Responder
 
+## Unix
+
+- Hashcat
+- BeRoot
+- ExifTool
