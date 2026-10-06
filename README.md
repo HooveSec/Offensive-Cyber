@@ -1,37 +1,26 @@
-<h1 align="center">Hi 👋, I'm SteveIrwinCyber</h1>
-<h3 align="center">Husband, Hacker, Defender, Cat-Dad</h3>
+# Offensive-Cyber
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=steveirwincyber&label=Profile%20views&color=0e75b6&style=flat" alt="steveirwincyber" /> </p>
+Personal study vault for authorized cybersecurity training: OSCP, Hack The Box CPTS, TryHackMe, and SANS SEC560 lab notes.
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=steveirwincyber" alt="steveirwincyber" /></a> </p>
+This is an [Obsidian](https://obsidian.md/) markdown vault, not a toolkit. Notes are messy on purpose in places — they were taken during class and labs.
 
-<p align="left"> <a href="https://twitter.com/steveirwincyber" target="blank"><img src="https://img.shields.io/twitter/follow/steveirwincyber?logo=twitter&style=for-the-badge" alt="steveirwincyber" /></a> </p>
+## Disclaimer
 
-- 🔭 I’m currently working on **Offensive and Defensive Cyber Projects**
+Use this material only on systems you own or have explicit permission to test (exam labs, HTB/THM/PG machines, home labs). Do not use it against systems you are not authorized to assess.
 
-- 👯 I’m looking to collaborate on **Any project**
+## Layout
 
-- 👨‍💻 All of my projects are available at [https://github.com/steveirwincyber](https://github.com/steveirwincyber)
+| Path | What is in it |
+| --- | --- |
+| [CPTS-HTB/](CPTS-HTB/) | Hack The Box CPTS course notes, cheat sheets, and op notes |
+| [OSCP/](OSCP/) | OSCP study notes and Proving Grounds writeups |
+| [TryHackMe/](TryHackMe/) | TryHackMe room notes |
+| [SEC560/](SEC560/) | SANS SEC560 notes (recon, tooling, interview questions) |
+| [Unix/](Unix/) · [Windows/](Windows/) · [Web/](Web/) · [Networks/](Networks/) | Topic notes from labs |
+| [Red Team/](Red%20Team/) | Extra reading and small helper scripts |
 
-I've worked on some others such as 
-- https://github.com/simeononsecurity/FireFox-Security-Researcher
-- https://github.com/simeononsecurity/FireFox-Privacy-Script
-- https://github.com/dionmulaj/EnumVolcano
+## Related repos
 
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/steveirwincyber" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="steveirwincyber" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=steveirwincyber&show_icons=true&locale=en&layout=compact" alt="steveirwincyber" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=steveirwincyber&show_icons=true&locale=en" alt="steveirwincyber" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=steveirwincyber&" alt="steveirwincyber" /></p>
-
-![certs](https://user-images.githubusercontent.com/55242374/161316479-83d4e60f-358c-46c0-a5d9-3dff29a25a96.PNG)
-![ejpt](https://user-images.githubusercontent.com/55242374/161316686-5f1ee7f2-930a-4a60-b6ff-6066f4c87107.PNG)
+- [Defensive-Cyber](https://github.com/HooveSec/Defensive-Cyber) — defensive notes, surveys, and IR templates
+- [CyberStakes2020](https://github.com/HooveSec/CyberStakes2020) — All-Army Cyberstakes 2020 writeups (2nd place, junior enlisted)
+- [CompaniesHiringForSpace](https://github.com/HooveSec/CompaniesHiringForSpace) — space-industry career resources

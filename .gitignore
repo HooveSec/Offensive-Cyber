@@ -1,7 +1,15 @@
-
+# Obsidian workspace / local UI state
+.obsidian/workspace.json
+.obsidian/workspace
+.obsidian/workspace-mobile.json
 .obsidian/app.json
 .obsidian/appearance.json
-.obsidian/core-plugins.json
 .obsidian/graph.json
 .obsidian/hotkeys.json
-.obsidian/workspace
+.obsidian/core-plugins.json
+.obsidian/community-plugins.json
+.trash/
+
+# OS junk
+.DS_Store
+Thumbs.db
